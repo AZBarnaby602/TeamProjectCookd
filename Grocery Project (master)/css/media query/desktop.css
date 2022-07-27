@@ -1,0 +1,52 @@
+
+@media only screen and (min-width:1024px){
+    /*For desktop:*/
+        .col-1{width:6.66%}
+        .col-2{width:13.33%}
+        .col-3{width:20%}
+        .col-4{width:26.66%}
+        .col-5{width:33.33%}
+        .col-6{width:40%}
+        .col-7{width:46.66%}
+        .col-8{width:53.33%}
+        .col-9{width:60%}
+        .col-10{width:66.66%}
+        .col-11{width:73.33%}
+        .col-12{width:80%} 
+        .col-13{width:86.66%}
+        .col-14{width:93.33%}
+        .col-15{width:100%;}
+
+.ingredients-ad{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#ad{
+    display: block;
+}
+#ad-sm{
+    display: none;
+}
+#hamburger-pic{
+    width: 100%;
+    border-radius: 2px;
+    margin: 20px;
+}
+.recipes-body-img{
+    float: left;
+    max-width: 30%;
+
+}
+    
+
+.recipes-body-ingredients-ul{
+    font-size: 1rem;
+    max-height: 225px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+}
+}/* end media query */

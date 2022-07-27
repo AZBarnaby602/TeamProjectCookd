@@ -1,0 +1,94 @@
+
+/*For mobile phones*/
+@media only screen and (max-width:600px){
+[class*="col-"] {
+    width: 100%;
+}
+
+#welcome-body{
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#hamburger-pic{
+    width: 50%;
+    display: block;
+    border-radius: 2px;
+    margin: auto;
+}
+
+.main-bar{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+#mission{
+ padding-left: 10px;
+ padding-right: 10px;
+ 
+}
+
+#ad{
+    display: none;
+    }
+#ad-sm{
+    display: block;
+}
+    
+.ingredients-card{ 
+    font-size: 10px;
+    padding:10px 10px;
+
+}
+.button-active span{
+    font-size: 12px;
+    
+}
+
+.userStep{
+    font-size: 14px;
+}
+
+.meal-legend{
+
+    font-size: .7em;
+
+}
+.recipe-card{
+    width:100px;
+}
+.recipes-body-legend{
+    font-size: 1em;
+    margin: auto;
+    color:white;
+    background-color: var(--bar);
+    border: 3px solid var(--bar-text);
+    border-radius: 5px;
+    padding: 3px 10px;
+    text-shadow: 0px 4px 7px #051a13; 
+}
+.recipe-card-title{
+    font-size: 10px;
+}
+.recipe-card-footer{
+    font-size: 10px;
+}
+
+.recipes-body-img{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+
+}
+
+.recipes-body-ingredients-legend{
+margin: auto;
+font-size: 1.2em;
+}
+ol li{
+  
+    font-size: 1.1em;
+}
+}/* end media query */
+
+

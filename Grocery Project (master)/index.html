@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<title>Team 1 Grocery Project (working title)</title>
+<!--A grocery app designed to ease customers stress of determining available options for cooking and reduce dependency on 
+fast food or resturant delivery services-->
+
+<meta name="description" content="">
+<meta name="author" content="Blaine Reid, Daniel Barnaby, Vernon Henry, Braden Vlk">
+
+<!--w3.css used instead of Bootstrap-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- jQuery Front End Library and jQuery UI -->
+<script src="./libraries/jQuery/jquery-3.5.1.min.js"></script>
+<script src="./libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="./libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+
+<!-- styleSheet -->
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/media query/mobile.css">
+<link rel="stylesheet" href="./css/media query/tablet.css">
+<link rel="stylesheet" href="./css/media query/desktop.css">
+
+<!-- logic -->
+<script src="js/script.js" defer></script>
+
+<body onload="storage()">
+  <div id="brand-bar-bottom">
+    <div id="brand-bar">
+      <p id='brand-name'>Cook'D</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-1"></div>
+    <div id="main-bottom" class='col-13 col-m-15'>
+      <div id="main" class="col-15 col-m-15">
+        <!-- Start of Ingredients Bar -->
+
+
+        <button id="welcome-bar" class="main-bar accordion bar-inset"
+          style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+
+          Welcome To Cook'D</button>
+        <div id='welcome-body' class="main-body w3-hide w3-show">
+          <div class="row">
+            <div class='col-5'>
+              <!-- <img id="hamburger-pic" src="images/img_hamburger3.jpg"> -->
+              <img id="hamburger-pic" src="images\mashedPotatos.jpg">
+              
+            </div>
+            <div class="col-1"></div>
+            <div id="mission" class="col-8">
+              Welcome to Cook’D! We know that life can become very busy. As a result, your favorite recipes may become
+              forgotten. Our mission is to provide you with a free and easy way to transform the food in your pantry
+              into your favorite meals. First, select the ingredients you currently have on hand. As you select, Cook’D
+              will automatically display meals that you can cook with the selected ingredients. Change the selected
+              ingredients at any time and the meal selection will update automatically! If you see a meal you like,
+              click on it and the full recipe will display. Ingredients you may be missing are displayed in red text for
+              your convenience. Additionally, we have provided the options to browse our full recipe selection or to
+              browse by a filtered cook time, just click on the “Show All Recipes” button or the “Filter” button.
+              Finally, if you need to close the app to take a call, don’t worry! Our local storage feature will save
+              your selections for your convenience. When you’re ready to select new ingredients, simply click the “Clear
+              All Ingredients” button. We hope that you enjoy using Cook’D! Happy cooking!
+
+              <div id="userSignUp">
+                <form action="#" method="post">
+                  <div id="userForm">
+                    <label for="userSignUp">Sign up for our weekly discounts: </label>
+                    <div id="formElem">
+                      <input type="email" name="userSignUp" size="40" placeholder="Enter email address..." required>
+                      <br>
+                      <button type="submit" class='btns' style="margin-top:10px">Submit</button>
+                    </div>
+                  </div>
+                </form>
+                <div id="socialMedia">
+                  <a href="www.facebook.com/cookd"><img src="./images/social/Circled_Facebook_svg-256.webp"
+                      alt="Facebook" class="social" title="Join us on Facebook"></a>
+                  <a href="www.instagram.com/cookd"><img src="./images/social/Circled_Instagram_svg-128.webp"
+                      alt="Instagram" class="social" title="Join us on Instagram"></a>
+                  <a href="www.twitter.com/cookd"><img src="./images/social/twitterBlk.png" alt="Twitter"
+                      class="social"title="Join us on Twitter"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="instructions">Please click 'Ingredients' bar to continue...</div>
+        </div>
+
+        <!-- ===================================================================== -->
+        <button id="ingredients-bar" class="main-bar accordion top-border bar-inset">
+          Ingredients
+        </button>
+        <div id='ingredients-body' class="w3-hide main-body row">
+
+        
+          
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-13 col-m-15" id='btnBar'>
+              <button type="button" id="allRecipes" class='btns'>Show All Recipes</button>
+              <button id="clearAll" type="button" class='btns'>Clear All Ingredients</button>
+              
+              <div id="clearAllTitle">Clear all selected ingredients?
+                <button id="clearAllConfirm" type="button" class='btns'>Confirm</button>
+              </div>
+            
+            </div>
+            <div class="col-1"></div>
+          </div>
+          <div class="row">
+            <div class="col-1"></div>
+
+            <!-- Start of Ingredients Bar    !!!!! Added Vlk's code !!!! -->
+
+            <div class="ingredient-container col-9 col-m-15">
+              <div class="instructions userStep">Please select the ingredients you currently have in your kitchen...
+              </div>
+              <!-- INGREDIENTS MEAT BAR -->
+              <button id="ingredients-meats-bar" style="border-top-left-radius: 5px; border-top-right-radius: 5px;"
+                class="w3-btn w3-block bottom-border yellow-hover ingredient-bar ">
+                Meats</button>
+
+              <div id="ingredients-meats-body" class="light-body">
+
+                <form id="ingredients-meats-form" class='flex'>
+                  <div class="ingredients-card" data-value="bacon">Bacon</div>
+                  <div class="ingredients-card" data-value="chicken breast">Chicken
+                  </div>
+                  <div class="ingredients-card" data-value="ground beef">Ground Beef
+                  </div>
+                  <div class="ingredients-card" data-value="italian sausage">Italian
+                    Sausage</div>
+                  <div class="ingredients-card" data-value="pork chop">Pork Chop
+                  </div>
+                  <div class="ingredients-card" data-value="steak">Steak</div>
+                </form>
+
+              </div>
+              <!-- INGREDIENTS VEGGIES BAR -->
+              <button id="ingredients-veggies-bar"
+                class="w3-btn w3-block accordion bottom-border yellow-hover ingredient-bar">
+                Veggies</button>
+
+              <div id="ingredients-veggies-body" class="w3-hide light-bod">
+
+                <form id="ingredients-veggies-form" class="flex">
+                  <div class="ingredients-card" data-value="broccoli">Broccoli</div>
+                  <div class="ingredients-card" data-value="carrot">Carrot</div>
+                  <div class="ingredients-card" data-value="lettuce">Lettuce</div>
+                  <div class="ingredients-card" data-value="mushroom">Mushroom</div>
+                  <div class="ingredients-card" data-value="onion">Onion</div>
+                  <div class="ingredients-card" data-value="peas">Peas</div>
+                  <div class="ingredients-card" data-value="potato">Potato</div>
+                  <div class="ingredients-card" data-value="red bell pepper">Red Bell
+                    Pepper</div>
+                  <div class="ingredients-card" data-value="fresh tomato">Tomato
+                  </div>
+                </form>
+              </div>
+              <!-- INGREDIENTS DAIRY BAR -->
+              <button id="ingredients-dairy-bar"
+                class="w3-btn w3-block accordion bottom-border yellow-hover ingredient-bar">
+                Dairy</button>
+
+              <div id="ingredients-dairy-body" class="w3-hide light-bod">
+
+                <form id="ingredients-dairy-form" class="flex">
+                  <div class="ingredients-card" data-value="cheddar cheese">Cheddar
+                    Cheese
+                  </div>
+                  <div class="ingredients-card" data-value="cream cheese">Cream
+                    Cheese</div>
+                  <div class="ingredients-card" data-value="fresh egg">Egg</div>
+                  <div class="ingredients-card" data-value="heavy cream">Heavy Cream
+                  </div>
+                  <div class="ingredients-card" data-value="milk">Milk</div>
+                  <div class="ingredients-card" data-value="sour cream">Sour Cream
+                  </div>
+                </form>
+              </div>
+              <!-- INGREDIENTS DRY BAR -->
+              <button id="ingredients-dry-bar"
+                class="w3-btn w3-block accordion bottom-border yellow-hover ingredient-bar">
+                Dry</button>
+
+              <div id="ingredients-dry-body" class="w3-hide light-body">
+
+                <form id="ingredients-dry-form" class="flex">
+                  <div class="ingredients-card" data-value="bread">Bread</div>
+                  <div class="ingredients-card" data-value="egg noodles">Egg Noodles
+                  </div>
+                  <div class="ingredients-card" data-value="elbow macaroni">Elbow
+                    Macaroni</div>
+                  <div class="ingredients-card" data-value="fettuccini">Fettuccini
+                  </div>
+                  <div class="ingredients-card" data-value="rice">Rice</div>
+                  <div class="ingredients-card" data-value="spaghetti pasta">Spaghetti Pasta</div>
+                </form>
+              </div>
+              <!-- INGREDIENTS CANNED BAR -->
+              <button id="ingredients-canned-bar"
+                class="w3-btn w3-block accordion bottom-border yellow-hover ingredient-bar">
+                Canned</button>
+
+              <div id="ingredients-canned-body" class="w3-hide light-body">
+
+                <form id="ingredients-canned-form" class="flex">
+                  <div class="ingredients-card" data-value="beef broth">Beef Broth
+                  </div>
+                  <div class="ingredients-card" data-value="chicken broth">Chicken
+                    Broth</div>
+                  <div class="ingredients-card" data-value="chicken stock">Chicken
+                    Stock</div>
+                  <div class="ingredients-card" data-value="crushed tomatoes">Crushed
+                    Tomatoes</div>
+                  <div class="ingredients-card" data-value="tomato paste">Tomato
+                    Paste</div>
+                  <div class="ingredients-card" data-value="tomato sauce">Tomato
+                    Sauce</div>
+                </form>
+              </div>
+              <!-- INGREDIENTS SEASONINGS BAR -->
+              <button id="ingredients-seasoning-and-sauces-bar"
+                style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;"
+                class="w3-btn w3-block accordion yellow-hover ingredient-bar">
+                Seasoning-and-Sauces</button>
+
+              <div id="ingredients-seasoning-and-sauces-body" class="w3-hide light-body">
+
+                <form id="ingredients-seasoning-and-sauces-form" class="flex">
+                  <div class="ingredients-card" data-value="baking powder">Baking Powder</div>
+                  <div class="ingredients-card" data-value="basil leaves">Basil
+                    Leaves</div>
+                  <div class="ingredients-card" data-value="brown sugar">Brown Sugar
+                  </div>
+                  <div class="ingredients-card" data-value="butter">Butter</div>
+                  <div class="ingredients-card" data-value="chili powder">Chili
+                    Powder</div>
+                  <div class="ingredients-card" data-value="cocoa powder">Cocoa
+                    Powder</div>
+                  <div class="ingredients-card" data-value="flour">Flour</div>
+                  <div class="ingredients-card" data-value="garlic">Garlic</div>
+                  <div class="ingredients-card" data-value="ginger">Ginger</div>
+                  <div class="ingredients-card" data-value="ketchup">Ketchup</div>
+                  <div class="ingredients-card" data-value="mayonnaise">Mayonnaise
+                  </div>
+                  <div class="ingredients-card" data-value="paprika">Paprika</div>
+                  <div class="ingredients-card" data-value="parmesan cheese">Parmesan
+                    Cheese</div>
+                  <div class="ingredients-card" data-value="parsley">Parsley</div>
+                  <div class="ingredients-card" data-value="pepper">Pepper</div>
+                  <div class="ingredients-card" data-value="olive oil">Olive Oil
+                  </div>
+                  <div class="ingredients-card" data-value="oregano">Oregano</div>
+                  <div class="ingredients-card" data-value="salt">Salt</div>
+                  <div class="ingredients-card" data-value="sesame oil" es>Sesame Oil
+                  </div>
+                  <div class="ingredients-card" data-value="sesame seed">Sesame Seed
+                  </div>
+                  <div class="ingredients-card" data-value="soy sauce">Soy Sauce
+                  </div>
+                  <div class="ingredients-card" data-value="sugar">Sugar</div>
+                  <div class="ingredients-card" data-value="thyme">Thyme</div>
+                  <div class="ingredients-card" data-value="vanilla extract">Vanilla
+                    Extract</div>
+                  <div class="ingredients-card" data-value="vegetable oil">Vegetable
+                    Oil</div>
+                  <div class="ingredients-card" data-value="vinegar">Vinegar</div>
+                  <div class="ingredients-card" data-value="worcestershire sauce">Worcestershire Sauce</div>
+                </form>
+              </div>
+              <div class="instructions userStep">...Please click the 'Meals' once you've selected ingredients </div>
+            </div>
+            <div class="col-1"></div>
+            <!-- AD SPACE -->
+            <div id="ingredients-ad" class='col-3 col-m-15'>
+              <img id="ad" src="./images/AmazonGroceryBag1.jpg">
+
+              <img id="ad-sm" src="./images/Ads/Final Ads/primeNowCrop1.jpg">
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+
+
+        <!-- MEALS BAR -->
+        <button id="meals-bar" class="main-bar accordion bar-inset">
+          Meals</button>
+
+        <!-- merge meals cards here -->
+        <div id='meals-body' class="w3-hide main-body">
+
+          <div id="meals-body-form">
+
+            <select id='filter'>
+              <option value="">Show All Available</option>
+              <option value="10">10 min or less</option>
+              <option value="20">20 min or less</option>
+              <option value="30">30 min or less</option>
+              <option value="40">40 min or less</option>
+              <option value="50">50 min or less</option>
+              <option value="60">60 min or less</option>
+              <option value="61">60 min or more</option>
+            </select>
+
+
+            <button type="button" id="timeBtn" class='btns'>Filter</button>
+          </div>
+
+
+
+          <div id="full-match-fieldset" class="meal-fieldSet">
+            <legend id="full-match-legend" class="meal-legend">Full Matched Ingredients</legend>
+
+            <div id="full-match" class="slider">
+              <!-- TARGET AREA FOR FULL MATCH RECIPE CARDS -->
+            </div>
+          </div>
+          <div id="partial-match-fieldset" class="meal-fieldSet">
+
+            <legend id="partial-match-legend" class="meal-legend">Partial Matched Ingredients
+              <div id="partial-match-title">Partial match contains most of the main ingredients needed to make the meal
+              </div>
+            </legend>
+
+            <div id="partial-match" class='slider'>
+              <!-- TARGET AREA FOR PARTIAL MATCH RECIPE CARDS -->
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- RECIPES BAR -->
+        <button id="recipes-bar" class="main-bar accordion bar-inset"
+          style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;">
+          Recipes</button>
+
+        <!-- merge recipes here -->
+        <div id='recipes-body' style="border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;"
+          class="w3-hide main-body row">
+
+
+
+
+        </div>
+        <div class='w3-col l1'></div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div style="text-align: center; font-size: 16px;height: 30px;">©Team1 Designs 2021</div>
+
+</body>
+
+</html>

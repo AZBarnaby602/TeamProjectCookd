@@ -1,0 +1,83 @@
+
+@media only screen and (min-width:600px){
+    /*For tablet*/
+    .col-m-1{width:6.66%}
+    .col-m-2{width:13.33%}
+    .col-m-3{width:20%}
+    .col-m-4{width:26.66%}
+    .col-m-5{width:33.33%}
+    .col-m-6{width:40%}
+    .col-m-7{width:46.66%}
+    .col-m-8{width:53.33%}
+    .col-m-9{width:60%}
+    .col-m-10{width:66.66%}
+    .col-m-11{width:73.33%}
+    .col-m-12{width:80%} 
+    .col-m-13{width:86.66%}
+    .col-m-14{width:93.33%}
+    .col-m-15{width:100%;}
+    
+#welcome-body{
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#hamburger-pic{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#mission{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+.ingredients-ad{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#ad{
+    display: none;
+}
+#ad-sm{
+    display: block;
+    text-align: center;
+}
+
+
+.meal-legend{
+
+    font-size: 1em;
+
+}
+
+.recipe-card{
+    width:150px;
+
+}
+
+.recipe-card-title{
+
+    font-size: 12px;
+
+
+}
+
+.recipe-card-footer{
+    font-size: 12px;
+  
+}
+
+
+.recipes-body-img{
+    float: left;
+    max-width: 30%;
+
+}
+
+
+}/* end media query */

@@ -1,0 +1,525 @@
+/* GLOBAL STYLING------------------------------------------------- */
+:root{
+    --light:#F4F8D8;
+    --button-unselect:#CEE536;
+    --button-select:#458F77;
+    --bar:#80BF33;
+    --bar-text:#093527;
+    --main-bar:#4CAF50;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+    color: goldenrod;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+} 
+
+.row:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+[class*="col-"]{
+    float:left;
+    border:1px solid transparent;
+}
+
+
+.hidden{
+    display:none;
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.instructions{
+text-align: center;
+font-size: 1.5em;
+font-weight: bolder;
+position: relative;
+
+}
+
+
+.userStep{
+    margin:10px 0px;
+}
+/* BRAND BAR STYLING------------------------------------------------- */
+
+#brand-bar-bottom{
+
+    height: 10.5vw;
+    width: 100%;
+    background-color: #fce148;
+    /* background-image: url('/images/background/Paper5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-blend-mode:darken;
+
+    box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.3),10px 0px 15px 15px rgba(0,0,0,.35);
+    }
+    
+    #brand-bar{
+ 
+         background-image: url('/images/brand/familyMeal2.jpg');
+        background-repeat: no-repeat; 
+         /* background-blend-mode: luminosity ;  */
+        background-size: cover;
+        background-position: center; 
+        height: 10vw;
+        box-shadow: 3px 0px 3px 3px rgba(0,0,0,0.23),5px 0px 5px 6px rgba(0,0,0,.25);
+        border-bottom:5px solid var(--bar-text);
+     }
+     
+     #brand-name{
+
+         text-align: center;
+         color: white;
+         font-size:6vw;
+         font-weight: 900;
+
+     }
+     
+     
+ 
+/* MAIN BARS STYLING and MAIN BOXES------------------------- */
+.light-body{
+    background-color: var(--light);
+}
+
+[id$="bar"] {
+    color:var(--bar-text);
+    background-color: var(--bar);
+    font-weight: 700;
+}
+#main{      
+    border:5px solid var(--button);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.15),0px 0px 4px 6px rgba(0,0,0,.2);
+}
+#main-bottom{
+    margin-top: 2.5%;
+    padding:8px 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #fce148;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+    background-blend-mode:darken;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.15),0px 0px 12px 10px rgba(0,0,0,.2);
+}
+
+.main-bar{
+    background-color: var(--bar-text);
+    border: none;
+    color:white;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 900;
+    text-shadow: 0px 4px 7px #051a13;
+    border-bottom: 3px solid var(--bar-text);
+}
+
+.main-bar:hover{
+    background-color: var(--bar);
+    box-shadow: none;
+    cursor: pointer;
+}
+.bar-inset {
+
+    box-shadow: 0px -3px 3px 3px #0c3124 inset,0px 3px 3px 3px #113d2e inset,0px -1px 1px 1px #040f0b inset ;
+    /* border-bottom: 3px solid #08291e;  */
+}
+
+.bottom-border {
+    border-bottom: 3px solid var(--bar-text); 
+}
+
+.main-body{
+    background-color: var(--light);
+min-height: 530px;
+    }
+
+#userSignUp{
+text-align: left;
+margin-top:20px;
+
+}
+
+ #socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#socialMedia img{
+    margin:10px 10px;
+}
+label{
+
+    font-weight: bolder;
+    color:var(--bar-text)
+}
+
+label input{
+    border:1px solid var(--main-bar);
+    border-radius: 3px;
+}
+#userForm{
+text-align: center;
+}
+
+#formElem{
+    text-indent: 0px;
+}
+
+#formElem input{
+    margin-top:5px;
+}
+
+/* WELCOME SECTION STYLING---------------------- */
+
+
+#hamburger-pic{
+    width: 100%;
+    border-radius: 2px;
+    margin: 20px;
+}
+#mission{
+    margin-top: 20px;
+    text-align: justify;
+    color: var(--bar-text);
+    text-indent: 30px;
+
+}
+.social{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* INGREDIENTS SECTION STYLING---------------------- */
+
+/* !!!!! Added Vlk's CSS below !!!!! */
+.ingredient-container{
+    margin-top: 20px;
+}
+
+#btnBar{
+    position: relative;
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btns{
+    background-color: var(--button-unselect);
+    border: 2px solid var(--bar-text);
+    color: var(--bar-text);
+    font-weight: bolder;
+    border-radius: 3px;
+    padding: 6px 20px;
+}
+
+.btns:hover{
+    background-color: var(--bar-text);
+    color:white;
+}
+
+
+#clearAllConfirm{
+    margin-left: 20px;
+}
+
+
+
+
+#clearAllTitle{
+    position: absolute;
+    display: none;
+    z-index:2;
+    top:60px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 10px 10px;
+    border:3px solid var(--bar-text);
+    background-color: var(--light);
+    text-shadow: none;
+    box-shadow: 0px 0px 8px 5px rgba(0,0,0,.3);
+}
+
+
+
+.ingredients-card{
+    text-align: center;
+    position: relative;
+    padding:10px 40px;
+    margin:4px;
+    width:25%;
+    border-radius: 10px;
+    background-color:var(--button-unselect);
+    color:var(--bar-text);
+    font-weight: 600;
+    font-size: 1.5vmin;
+    border: 2px solid var(--bar-text);
+}
+
+#ad{
+margin-top: 40px;
+}
+
+#ingredients-ad{
+    display: flex;
+    justify-content: center;
+}
+
+#ingredients-body{
+    width: 100%;
+    font-weight: 550;
+    border: 1px solid transparent;
+}
+.ingredient-bar{
+    font-size: 1.5em;
+}
+
+.yellow-hover:hover {
+    background-color: var(--button-unselect);
+}
+
+/* ========== Added For Barnaby's JS ===== */
+.button-active{
+    background-color: var(--bar-text);
+    color: white;
+}
+
+.button-active span {
+    position: absolute;
+    left:10px;
+    padding-right: 5px;
+    color: white;
+    font-size: 1.5vmin;
+}
+/* =================================== */
+
+/*RECIPE CARD STYLING--------------------------------------*/
+#meals-body{
+    padding:15px 15px;
+    
+}
+
+.meal-fieldSet{
+    position: relative;
+    max-width: 90%;
+    margin: 20px auto;
+    border: 3px solid var(--bar-text);
+    border-radius: 5px;
+    padding:20px;
+}
+
+#full-match, #partial-match{
+    overflow: auto;
+    white-space: nowrap;
+    cursor: grabbing;
+    }           
+#meals-body-form{
+    text-align: center;
+
+}
+
+#filter{
+    font-size: 1.1em;
+    padding: 6px 20px;
+    border-radius: 3px;
+    border: 3px solid var(--bar-text);
+}
+
+#partial-match-legend{
+    position: relative;
+}
+#partial-match-title{
+    position: absolute;
+    display: none;
+    top:35px;
+    left:100px;
+    width:200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+    line-height: 1.3;
+    padding: 5px 0px;
+    border:3px solid var(--bar-text);
+    background-color: var(--light);
+    text-shadow: none;
+    box-shadow: 0px 0px 8px 5px rgba(0,0,0,.3);
+}
+.meal-legend{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    font-size: 1.5em;
+    color:white;
+    background-color: var(--bar);
+    border: 3px solid var(--bar-text);
+    border-radius: 5px;
+    padding: 3px 10px;
+    text-shadow: 0px 4px 7px #051a13; 
+}
+
+.recipe-card{
+    width:225px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #093527;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.recipe-card:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,.25);
+    transform: scale(1.05);
+}
+
+.recipe-card-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F4F8D8;
+}
+
+.recipe-card-footer{
+    text-align: center;
+    padding:20px;
+    font-weight: bold;
+    color: #F4F8D8;
+}
+
+/* LARGER RECIPE CARD-------------------------- */
+#recipes-body{
+    padding: 20px;
+    height: auto;
+
+}
+.recipes-body-card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 3px solid var(--bar-text);
+    border-radius: 5px;
+}
+
+.recipes-body-header{
+    width: 100%;
+    clear: both;
+
+}
+
+.recipes-body-legend{
+    font-size: 1.5em;
+    color:white;
+    background-color: var(--bar);
+    border: 3px solid var(--bar-text);
+    border-radius: 5px;
+    padding: 3px 10px;
+    text-shadow: 0px 4px 7px #051a13; 
+}
+.recipes-body-img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.recipes-body-header-text{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+
+    padding:10px;
+}
+
+.recipes-body-description{
+    font-size: 1.25em;
+    font-style: italic;
+    color:var(--bar-text);
+    text-align: center;
+}
+
+.recipes-body-serves{
+    color:var(--bar-text);
+}
+
+.recipes-body-ingredients-legend{
+    color:var(--bar-text);
+    font-size:1.2vmax;
+   
+}
+.recipes-body-cookTime{
+    color:var(--bar-text);
+}
+
+
+.recipes-body-ingredients{
+    margin-right: 20px;
+    /* border: ; */
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.03);
+}
+
+
+ul li,ol li{
+    color:var(--bar-text);
+  
+}
+
+ol li{
+    margin: 5px 0px;
+    font-size: 1.3em;
+}
+
+
+.missingItem{
+color:red;
+}
+
+.text{
+color:var(--button-select);
+font-weight:bold;
+}
+
+.tastyImg{
+    width: 95%;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.grabbed{
+    transform: scale(1.02);
+}

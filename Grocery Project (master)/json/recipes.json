@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Beef Stroganough",
+    "description": " Beef Strogie!!",
+    "img": "./images/beefStroganough.jpg",
+    "ingredients": [
+      "1 1/2 pounds beef sirloin steak, 1/2 inch thick",
+      "3 cups hot cooked egg noodles",
+      "1 1/2 cups beef broth",
+      "8 ounces fresh mushrooms, sliced",
+      "2 medium onions, thinly sliced",
+      "1 garlic clove, finely chopped",
+      "1/4 cup butter",
+      "1/2 teaspoon salt",
+      "1 teaspoon Worcestershire sauce",
+      "1/4 cup all-purpose flour",
+      "1 1/2 cups sour cream"
+    ],
+    "recipe": [
+      "Cut beef across grain into about 1 1/2x1/2-inch strips.",
+      "Cook mushrooms, onions and garlic in butter in 10-inch skillet over medium heat, stirring occasionally, until onions are tender; remove from skillet.",
+      "Cook beef in same skillet until brown. Stir in 1 cup of the broth, the salt and Worcestershire sauce. Heat to boiling; reduce heat. Cover and simmer 15 minutes.",
+      "Stir remaining 1/2 cup broth into flour; stir into beef mixture. Add onion mixture; heat to boiling, stirring constantly. Boil and stir 1 minute. Stir in sour cream; heat until hot (do not boil).",
+      "Serve over noodles."
+    ],
+    "cook_time": "30 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Spaghetti",
+    "description": "Spaghetti from the motherland...",
+    "img": "./images/spaghetti.jpg",
+    "ingredients": [
+      "1 lb. ground beef",
+      "1 lb. dried spaghetti pasta",
+      "2 (6 oz.) cans tomato paste",
+      "1 (15 oz) can tomato sauce",
+      "1 (15 oz) can crushed tomatoes",
+      "1 medium onion -chopped",
+      "2 garlic cloves -minced",
+      "1/2 lb. sweet Italian sausage (opt)",
+      "2 Tablespoons sugar",
+      "1 Tablespoon Italian seasoning",
+      "2 teaspoons salt",
+      "1 teaspoon dried basil leaves",
+      "1/4 teaspoon ground black pepper",
+      "3 Tablespoons parsley",
+      "2 Tablespoons parmesan cheese",
+      "1/2 cup water"
+    ],
+    "recipe": [
+      "Add the beef (and sausage) to a large skillet over medium-high heat, breaking it apart with a wooden spoon. Add the onion and garlic. Cook until meat is browned, about 6-8 minutes. Drain the fat from the meat.",
+      "Add the sugar, Italian seasoning, salt, basil, and black pepper to the skillet with the cooked meat. Stir well.",
+      "Add the tomato paste. Stir until no large clumps of tomato paste remain.",
+      "Add the tomato sauce, crushed tomatoes, and water. Stir until well combined. Cover and reduce the heat to low. Simmer the sauce for 30 minutes. Remove from the heat. Stir in the minced parsley.",
+      "As the sauce is simmering, cook the pasta al dente according to its package directions. Drain the pasta well, and return it to the large pot used for boiling.",
+      "Pour the meat sauce over the pasta. Stir well. Add the parmesan cheese to the pasta. Stir well. Let the spaghetti rest in the meat sauce for 5 minutes before serving to let the pasta absorb some of the sauce."
+    ],
+    "cook_time": "55 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Chicken Alfredo",
+    "description": "Creamy Fredo!",
+    "img": "./images/chickenAlfredo.jpg",
+    "ingredients": [
+      "2 boneless skinless chicken breasts",
+      "8 oz. fettuccini",
+      "1 1/2 c. chicken broth",
+      "1 1/2 c. whole milk",
+      "2 tbsp. extra-virgin olive oil",
+      "2 cloves garlic, minced",
+      "1/2 c. heavy cream",
+      "1 c. freshly grated Parmesan cheese",
+      "Freshly chopped parsley, for garnish",
+      "Kosher salt",
+      "Freshly ground black pepper"
+    ],
+    "recipe": [
+      "In a large skillet over medium-high heat, heat oil.",
+      "Add chicken and season with salt and pepper. Cook until golden and cooked through, 8 minutes per side. Let rest 10 minutes, then slice.",
+      "Add milk, broth, and garlic to skillet. Season with salt and pepper and bring to a simmer.",
+      "Add fettuccine, stirring frequently for about 3 minutes. Let cook until al dente, 8 minutes more.",
+      "Stir in heavy cream and Parmesan until combined.",
+      "Simmer until sauce thickens.",
+      "Remove from heat and stir in sliced chicken.",
+      "Garnish with parsley."
+    ],
+    "cook_time": "40 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Meat Loaf",
+    "description": "Everyone's favorite!",
+    "img": "./images/meatloaf.jpg",
+    "ingredients": [
+      "1-1/2 pounds Ground Beef",
+      "3/4 cup bread crumbs",
+      "3/4 cup ketchup",
+      "1 fresh egg",
+      "1/2 cup minced onion",
+      "1 tablespoon Worcestershire sauce",
+      "2 teaspoons minced garlic",
+      "1 teaspoon dried thyme",
+      "3/4 teaspoon pepper",
+      "1/2 teaspoon salt"
+    ],
+    "recipe": [
+      "Preheat oven to 350°F.",
+      "Combine Ground Beef, bread crumbs, 1/2 cup ketchup, onion, egg, Worcestershire, garlic, thyme, pepper and salt in large bowl, mixing lightly but thoroughly. Shape beef into 8 x 4-inch loaf on rack in aluminum foil-lined broiler pan.",
+      "Place on upper oven rack in 350°F oven. Bake 45 to 55 minutes, until instant-read thermometer inserted into center registers 160°F; brush with remaining 1/4 cup ketchup during last 10 minutes, if desired.",
+      "Let stand 10 minutes. Cut into slices."
+    ],
+    "cook_time": "60 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "description": "All can enjoy!",
+    "img": "./images/stirFryVegetables.jpg",
+    "ingredients": [
+      "1 cup diagonally sliced carrots",
+      "2 cups broccoli florets",
+      "1 large red bell pepper, cut into strips",
+      "2 cups snap peas",
+      "1 medium onion, sliced thin",
+      "1 tablespoon vegetable oil",
+      "1 tablespoon reduced sodium soy sauce",
+      "1 teaspoon Garlic Powder",
+      "1 teaspoon Ground Ginger",
+      "2 teaspoons Sesame Seed, toasted"
+    ],
+    "recipe": [
+      "Heat the oil in wok (or large deep skillet) on medium-high heat. ",
+      "Add onion and carrots; stir fry 2 minutes.",
+      "Add remaining vegetables; stir fry 5 to 7 minutes or until vegetables are tender-crisp.",
+      "Add soy sauce, garlic powder and ginger; stir-fry until well blended.",
+      "Sprinkle with sesame seed. Serve over cooked rice, if desired."
+    ],
+    "cook_time": "25 min",
+    "serves": "10 people"
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "description": "Chickfryrice...",
+    "img": "./images/chickenFriedRice.jpg",
+    "ingredients": [
+      "3/4 to 1 pound boneless skinless chicken breasts, diced into 1/2-inch pieces",
+      "1 1/2 cups frozen peas and diced carrots blend",
+      "4 cups cooked rice",
+      "3 green onions, trimmed and sliced into thin rounds",
+      "2 to 3 garlic cloves, finely minced",
+      "3 large fresh eggs, lightly beaten",
+      "2 tablespoons sesame oil",
+      "2 tablespoons vegetable oil",
+      "3 to 4 tablespoons soy sauce",
+      "salt and pepper (to taste)"
+    ],
+    "recipe": [
+      "To a large non-stick skillet or wok, add the oils, chicken, and cook over medium-high heat for about 3 to 5 minutes, flipping intermittently so all sides cook evenly. Cooking time will vary based on thickness of chicken breasts and sizes of pieces.",
+      "Remove chicken with a slotted spoon (allow oils and cooking juices from chicken to remain in skillet) and place chicken on a plate; set aside.",
+      "Add the peas, carrots, green onions, and cook for about 2 minutes, or until vegetables begin to soften, stir intermittently.",
+      "Add the garlic and cook for 1 minute, stir intermittently.",
+      "Push vegetables to one side of the skillet, add the eggs to the other side, and cook to scramble, stirring as necessary.",
+      "Add the chicken, rice, evenly drizzle with soy sauce, optional salt and pepper, and stir to combine. Cook for about 2 minutes, or until chicken is reheated through."
+    ],
+    "cook_time": "10 min",
+    "serves": "4 - 6 people"
+  },
+  {
+    "name": "Mac N Cheese",
+    "description": "Brings out the kid in everyone!",
+    "img": "./images/macAndCheese.jpg",
+    "ingredients": [
+      "1/2 lb uncooked elbow macaroni (about 1 1/2 cups dry)",
+      "2 1/2 cups shredded cheddar cheese",
+      "3 tablespoons butter",
+      "2 tablespoons all-purpose flour",
+      "1 1/2 cup milk",
+      "3/4 cup half and half",
+      "1/2 teaspoon salt",
+      "1/8 teaspoon ground black pepper"
+    ],
+    "recipe": [
+      "Preheat the oven to 325 degrees and lightly grease a square baking dish.",
+      "Cook the macaroni to al dente, according to package instructions. Drain and set aside.",
+      "Melt the butter in a medium saucepan over medium heat. Blend in the flour, salt, and pepper. Cook for 2 minutes.",
+      "Slowly add the milk and half and half, stirring constantly, and cook over medium-low heat for a few minutes until the mixture is just barely thickened.",
+      "Remove from heat and stir in 1 cup shredded cheese, stirring just until melted.",
+      "Add the cooked macaroni noodles and toss to coat.",
+      "Pour half of the pasta mixture into the prepared baking dish. Sprinkle 1/2 cup cheese over the top.",
+      "Add remaining pasta and sprinkle with remaining cheese.",
+      "Bake for 15-20 minutes or until cheese is melted on top."
+    ],
+    "cook_time": "40 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Grilled Cheese",
+    "description": "Quick lunch!",
+    "img": "./images/grilledCheese.jpg",
+    "ingredients": [
+      "4 slices white bread",
+      "2 slices Cheddar cheese",
+      "3 tablespoons butter"
+    ],
+    "recipe": [
+      "Preheat skillet over medium heat.",
+      "Generously butter one side of a slice of bread.",
+      "Place bread butter-side-down onto skillet bottom and add 1 slice of cheese.",
+      "Butter a second slice of bread on one side and place butter-side-up on top of sandwich.",
+      "Grill until lightly browned and flip over.",
+      "Continue grilling until cheese is melted.",
+      "Repeat with remaining 2 slices of bread, butter and slice of cheese."
+    ],
+    "cook_time": "10 min",
+    "serves": "2 servings"
+  },
+  {
+    "name": "Pork Chops",
+    "description": "Chop chop!!",
+    "img": "./images/porkChop.jpg",
+    "ingredients": [
+      "4 pork chops (about 1-inch thick)",
+      "1 tablespoon all-purpose flour",
+      "1 cup low-sodium chicken stock",
+      "1 teaspoon chili powder",
+      "1 teaspoon garlic powder",
+      "1 teaspoon onion powder",
+      "1/2 teaspoon smoked paprika",
+      "Salt (to taste)",
+      "1/2 teaspoon ground black pepper",
+      "1 tablespoon olive oil",
+      "1 tablespoon apple cider vinegar",
+      "2 teaspoons honey or brown sugar",
+      "1 tablespoon butter",
+      "2 tablespoons fresh parsley"
+    ],
+    "recipe": [
+      "Season on both sides of each pork chop with salt and pepper — we use just less than 1/4 teaspoon of fine salt per pork chop. Set the chops aside to rest for 30 minutes.",
+      "Make the spice rub. In a small bowl, mix the flour, chili powder, garlic powder, onion powder, and smoked paprika.",
+      "After 30 minutes, use a paper towel to pat the pork chops dry then rub both sides of the chops with the spice rub.",
+      "Heat the oil in a medium skillet (with lid) over medium-high heat. As soon as the oil is hot and looks shimmery, add the pork. Cook until golden, 2 to 3 minutes.",
+      "Flip the pork so that the seared side is facing up. Reduce the heat to low then cover the skillet with a lid. Cook 6 to 12 minutes. You will know they are done, if when cutting into the chops, the juices run clear.",
+      "Transfer pork chops to a plate then cover loosely with aluminum foil. Let the pork rest for 5 minutes.",
+      "While the pork rests, make the pan sauce. Increase the heat to medium-high then add the chicken stock, vinegar, and honey.",
+      "Slide the skillet off of the heat and when the sauce is no longer simmering, swirl in the butter.",
+      "Slide the pork chops back into the pan and spoon some of the sauce on top.",
+      "Scatter fresh parsley over the pork then serve."
+    ],
+    "cook_time": "45 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Mashed Potatoes",
+    "description": "Taters!!",
+    "img": "./images/mashedPotatos.jpg",
+    "ingredients": [
+      "12 medium boiling potatoes, peeled and cut into large pieces",
+      "3/4 to 1 cup milk",
+      "1/2 package (8-ounce size) cream cheese, cut into cubes and softened",
+      "1/2 cup butter or margarine",
+      "1/2 teaspoon salt",
+      "1/8 teaspoon pepper"
+    ],
+    "recipe": [
+      "Heat 1 inch water (salted if desired) to boiling in Dutch oven. Add potatoes.",
+      "Cover and heat to boiling; reduce heat. Cook 20 to 25 minutes or until tender; drain. Shake pan with potatoes over low heat to dry.",
+      "Mash potatoes in large bowl until no lumps remain.",
+      "Beat in milk in small amounts, beating after each addition.",
+      "Add cream cheese, butter, salt and pepper. Beat vigorously until potatoes are light and fluffy."
+    ],
+    "cook_time": "40 min",
+    "serves": "6 people"
+  },
+  {
+    "name": "Omellette",
+    "description": "A good morning!",
+    "img": "./images/omellette.jpg",
+    "ingredients": [
+      "2 large fresh eggs",
+      "2 tablespoons grated cheddar cheese",
+      "3 to 4 fresh tomatoes, cut in half and sprinkled lightly with salt",
+      "2 tablespoons chopped basil leaves",
+      "1 tablespoon unsalted butter"
+    ],
+    "recipe": [
+      "In a bowl, beat the eggs with a fork.",
+      "In an 8-inch nonstick skillet over medium-low heat, melt the butter.",
+      "Add the eggs to the skillet and cook without stirring until the edges begin to set.",
+      "With a silicone spatula, push the edges toward the center of the pan and tilt the pan so the uncooked eggs move to the edge.",
+      "Repeat until the eggs are somewhat set but still a little soft in the center, about 6 minutes.",
+      "Place the cheese, tomatoes, and herbs in a line down the center of the omelette and cook for about 1 minute longer, or until the eggs are mostly set but still a little soft in the center.",
+      "Slide the spatula around one side of the omelette at the edge to loosen it. Slip it under the eggs, and use it to carefully fold the omelette in half."
+    ],
+    "cook_time": "10 min",
+    "serves": "1 serving"
+  },
+  {
+    "name": "Pancakes",
+    "description": "Kids' favorite!",
+    "img": "./images/pancakes.jpg",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "3 tablespoons butter, melted",
+      "1 1/4 cups milk",
+      "1 fresh egg",
+      "3 1/2 teaspoons baking powder",
+      "1 teaspoon salt",
+      "1 tablespoon white sugar"
+    ],
+    "recipe": [
+      "Heat a lightly oiled griddle or frying pan over medium-high heat.",
+      "In a large bowl, sift together the flour, baking powder, salt and sugar.",
+      "Make a well in the center and pour in the milk, egg and melted butter.",
+      "Mix until smooth.",
+      "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "Brown on both sides and serve hot."
+    ],
+    "cook_time": "25 min",
+    "serves": "8 servings"
+  },
+  {
+    "name": "BLT",
+    "description": "A taste of heaven.",
+    "img": "./images/bLT.jpg",
+    "ingredients": [
+      "8 slices thick-cut, OR 16 slices thin-cut bacon",
+      "6 lettuce leaves",
+      "2 fresh tomatoes",
+      "4 slices of bread (heavily toasted)",
+      "1/4 cup mayonnaise",
+      "2 teaspoons red wine vinegar",
+      "1 1/2 tablespoons extra-virgin olive oil",
+      "Flaky sea salt",
+      "Freshly ground black pepper"
+    ],
+    "recipe": [
+      "Working in batches if necessary, fry bacon in a large skillet over high heat until golden brown, about 4 minutes. Transfer to a large cutting board.",
+      "While bacon cooks, slice tomato crosswise into thin rounds. Transfer to a plate and marinate with red wine vinegar, 1 tablespoon olive oil, salt and pepper.",
+      "Begin toasting bread.",
+      "Spread toast generously with mayonnaise on one side, follow with remaining 1/2 tablespoon olive oil.",
+      "Divide the tomatoes with some of their vinegar marinade among 2 slices of toast.",
+      "Top with the lettuce.",
+      "Lay the bacon on the remaining slices of toast.",
+      "Form sandwiches by piling the bacon-topped slices on top of the remaining toasts.",
+      "Squeeze to close, cut in half and serve immediately."
+    ],
+    "cook_time": "10 min",
+    "serves": "2 sandwiches"
+  },
+  {
+    "name": "XXL Death by Chocolate Cookie",
+    "description": "Diabetes awaits...",
+    "img": "./images/chocolateCookie.jpg",
+    "ingredients": [
+      "1/4 cup dark chocolate chips + 1 Tablespoon, divided (or semi-sweet chocolate chips)",
+      "2 Tablespoons unsalted butter, softened to room temperature",
+      "2 Tablespoons granulated sugar",
+      "2 Tablespoons packed brown sugar",
+      "2 Tablespoons beaten fresh egg (crack an egg, beat it, and use 2 Tablespoons)",
+      "1/2 teaspoon pure vanilla extract",
+      "1/4 cup all-purpose flour (spoon & leveled)",
+      "2 Tablespoons natural unsweetened cocoa powder",
+      "1/2 teaspoon baking soda",
+      "1/4 teaspoon salt"
+    ],
+    "recipe": [
+      "Preheat oven to 350°F (177°C).",
+      "Line a cookie sheet with parchment paper or silicone baking mat. Set aside.",
+      "In a medium size bowl, mix the softened butter and sugars together with a spoon or fork until creamed.",
+      "Mix in the egg and vanilla.",
+      "In a separate small bowl, mix the flour, cocoa powder, baking soda, and salt. Pour the dry ingredients into the wet ingredients (from step 3) and mix to combine. Fold in 1/4 cup chocolate chips.",
+      "Place the dough in the center of the baking sheet and mold into a tall ball using a spoon.",
+      "Dot the top of the 'cookie' with 1 Tablespoon of chocolate chips.",
+      "Bake for 14-15 minutes, or up to 16 minutes.",
+      "Remove cookie sheet from oven.",
+      "Allow to cool completely on baking sheet. The cookie will appear very soft, but will firm up as it cools.",
+      "Smaller Cookies: You may make four smaller cookies using this recipe.",
+      "Just divide the dough into 4 smaller mounds on the cookie sheet rather than 1 large mound.",
+      "Bake for 8-10 minutes."
+    ],
+    "cook_time": "30 min",
+    "serves": "4 people"
+  },
+  {
+    "name": "Fried Chicken",
+    "description": "",
+    "img": "./images/friedChicken.jpg",
+    "ingredients": [
+      "chicken breasts"
+    ],
+    "recipe": "",
+    "cook_time": "30 min",
+    "serves": ""
+  },
+  {
+    "name": "Steak and Eggs",
+    "description": "",
+    "img": "./images/steak_Eggs.jpg",
+    "ingredients": [
+      "steak",
+      "fresh egg"
+    ],
+    "recipe": "",
+    "cook_time": "20 min",
+    "serves": ""
+  },
+  {
+    "name": "Pork Chops and Apple Sauce",
+    "description": "",
+    "img": "./images/porkChopsAndAppleSauce.jpg",
+    "ingredients": [
+      "pork chop",
+      "apple sauce"
+    ],
+    "recipe": "",
+    "cook_time": "20 min",
+    "serves": ""
+  },
+  {
+    "name": "Biscuits and Gravy",
+    "description": "",
+    "img": "./images/biscuits_Gravy.jpg",
+    
+    "ingredients": [
+      "italian sausage",
+      "flour"
+    ],
+    "recipe": "",
+    "cook_time": "20 min",
+    "serves": ""
+  },
+  {
+    "name": "Bacon and Eggs",
+    "description": "",
+    "img": "./images/bacon-Eggs.jpg",
+    "ingredients": [
+      "fresh eggs",
+      "bacon"
+    ],
+    "recipe": "",
+    "cook_time": "10 min",
+    "serves": ""
+  },
+  {
+    "name": "Bacon Grilled Cheese",
+    "description": "",
+    "img": "./images/baconGriledCheese.jpg",
+    "ingredients": [
+      "bacon",
+      "cheddar cheese",
+      "fresh egg"
+    ],
+    "recipe": "",
+    "cook_time": "10 min",
+    "serves": ""
+  },
+  {
+    "name": "Grilled Cheese and Tomato Soup",
+    "description": "",
+    "img": "./images/grilledCheeseAndTomatoSoup.jpg",
+    "ingredients": [
+      "cheddar cheese",
+      "bread",
+      "tomato soup"
+    ],
+    "recipe": "",
+    "cook_time": "10 min",
+    "serves": ""
+  }
+]
